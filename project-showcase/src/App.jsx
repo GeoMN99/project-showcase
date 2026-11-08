@@ -36,7 +36,7 @@ function App() {
         <ProjectForm onAddProject={handleAddProject} />
         <hr className="my-4 text-secondary opacity-25" />
         <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-        {/* Make sure filteredProjects is passed here */}
+        
         <ProjectList projects={filteredProjects} onDeleteProject={handleDeleteProject} />
       </main>
     </div>
